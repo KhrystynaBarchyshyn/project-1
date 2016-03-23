@@ -2,49 +2,113 @@
 <html>
 
 <head>
-    <title> </title>
+    <link rel="stylesheet" href="style.css">
+    <title>Top 10 Animated Feature Films 2016</title>
 </head>
 
 <body>
-    <table border="1">
-        <tr>
-            <th rowspan="2">Summary</th>
-            <th>Quarter</th>
-            <th>Quarter2</th>
-        </tr>
-        <tr>
-            <th>Results</th>
-            <th>Results</th>
-        </tr>
-        <tr>
-            <td>January</td>
-            <td>10</td>
-            <td>20</td>
-        </tr>
-        <tr>
-            <td>February</td>
-            <td>30</td>
-            <td>40</td>
-        </tr>
-        <tr>
-            <td>Total</td>
-            <td colspan="2">100</td>
-        </tr>
-    </table>
-    <br>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav><br><br><br>
+        <h1 class="main">Top 10 Animated Feature Films 2016</h1>
+    </header><br>
+    <section class="main">
+        <h2>Here is Top 3 Positions</h2>
+        <br>
+        <table border="1">
+            <tr>
+                <th colspan="2">Name</th>
+                <th>IMDb</th>
+                <th>Icome</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Zootropolis</td>
+                <td>8,4</td>
+                <td>$150 millions</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Kung Fu Panda</td>
+                <td>7,5</td>
+                <td>$323 millions</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>The Good Dinosaur</td>
+                <td>6,8</td>
+                <td>not specified</td>
+            </tr>
+        </table>
+        <br><br><br>
+        <article>
+            <header>
+                <h2>Short Description of Top 3 Animated Feature Films</h2>
+            </header><br><br>
+            <section class="cartoons">
+                <section class="zootropolis">
+                    <h3>1. Zootropolis</h3>
+                    <img src="zootropolis.jpg" alt="List Picture">
+                    <p>In a city of anthropomorphic animals, a rookie bunny cop and a cynical con artist fox must work together to uncover a conspiracy.
+                        <br><b>Directors</b>: <i>Byron Howard, Rich Moore</i>
+                        <br><b>Writers</b>: <i>Byron Howard (story), Jared Bush (story)</i></p>
+                </section>
+                <section class="panda">
+                    <h3>2. Kung Fu Panda</h3>
+                    <img src="panda kung fu.jpg" alt="List Picture">
+                    <p>Continuing his "legendary adventures of awesomeness", Po must face two hugely epic, but different threats: one supernatural and the other a little closer to his home.
+                        <br>
+                        <b>Directors</b>: <i>Alessandro Carloni, Jennifer Yuh Nelson</i>
+                        <br><b>Writers</b>: <i>Jonathan Aibel, Glenn Berger</i></p>
+                </section>
+                <section class="dinosaur">
+                    <h3>3. The Good Dinosaur</h3>
+                    <img src="the good dinosaur.jpg" alt="List Picture">
+                    <p>In a world where dinosaurs and humans live side-by-side, an Apatosaurus named Arlo makes an unlikely human friend.
+                        <br><b>Director</b>: <i>Peter Sohn</i>
+                        <br> <b>Writers</b>: <i>Bob Peterson (original concept and development), Peter Sohn (story)</i></p>
+                </section>
+            </section>
+        </article>
+        <section>
+            <h3>Contact me for more details</h3>
+            <form method="post">
+                <fieldset>
+                    <br>
+                    <label for="name">Name:</label>
+                    <input type="text" required placeholder="Your Name here" pattern="[A-Za-z]+" />
+                    <br>
+                    <br>
+                    <label for="email">E-mail:</label>
+                    <input type="text" required placeholder="Your E-mail Address here" pattern="^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[a-zA-Z]{2,}$">
+                    <br>
+                    <br>
+                    <br>
+                    <textarea name="comments" placeholder="Write your message here" required></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" value="Send me your inquiry">
+                </fieldset>
+            </form>
+        </section>
 
-    <form>
-        <fieldset>
-            <legend> Info </legend>
-            <label for="name">Name:</label>
-            <input id="name" type="text"/>
-            <br>
-            <label for="e-mail">E-mail:</label>
-            <input id="e-mail" type="email">
-            <br>
-            <input type="submit" value="Submit">
-        </fieldset>
-    </form>
+
+    </section>
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 
 </html>
