@@ -52,14 +52,15 @@ table {
 }
 
 th, td {
-    text-align: left;
     padding: 8px;
+    background-color: #FFFFC8;
 }
 
 
 th {
     background-color: #FF9999;
     color: white;
+    text-align: center;
 }
 
 h1 {
